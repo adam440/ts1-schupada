@@ -2,7 +2,9 @@ package cz.cvut.fel.ts1;
 
 public class Main {
     public static void main(String[] args) {
-        Username username = new Username();
-        System.out.println(username.factorial(5));
+        Schupada schupada = new Schupada();
+        Pisnamar pisnamar = new Pisnamar();
+        System.out.println(schupada.factorial(20));
+        System.out.println(pisnamar.factorial(20));
     }
 }
